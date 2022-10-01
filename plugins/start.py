@@ -92,7 +92,8 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("😊 About Me", callback_data = "about"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("🔒 Close", callback_data = "close"),
+                    InlineKeyboardButton("Join my channel", https://t.me/+UasWKGm6H9U3MjU1 = "Join")
                 ]
             ]
         )
@@ -116,7 +117,7 @@ async def not_joined(client: Client, message: Message):
         [
             InlineKeyboardButton(
                 "Join Channel",
-                url = client.invitelink)
+                url = https://t.me/+UasWKGm6H9U3MjU1 )
         ]
     ]
     try:
